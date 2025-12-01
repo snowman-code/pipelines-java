@@ -11,3 +11,5 @@ pool: Default
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
+- bash: sleep 30
+  displayName: "Sleep for 30 seconds using Bash"
