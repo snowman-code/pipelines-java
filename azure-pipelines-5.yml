@@ -7,7 +7,7 @@
 trigger:
 - none
 
-pool: Default
+pool: azure-agent-pool
 
 steps:
 - script: echo Hello, world!
