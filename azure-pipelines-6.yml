@@ -1,0 +1,18 @@
+trigger: none
+pool: 'azure-agent-pool'
+jobs:
+- job: job1
+  steps:
+  - script: |
+    echo Hello, world!
+    sleep 10
+- job: job2
+  steps:
+  - script: |
+    echo Hello world2
+    sleep 10
+- job: job3
+  steps:
+  - script: |
+    echo Hello world3
+    sleep 10
