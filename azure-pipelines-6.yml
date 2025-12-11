@@ -1,5 +1,5 @@
 trigger: none
-pool: 'azure-agent-pool'
+pool: 'scaled-pool'
 jobs:
 - job: job1
   steps:
