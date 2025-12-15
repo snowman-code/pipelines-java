@@ -16,3 +16,13 @@ jobs:
   - script: |
       echo Hello world3
       sleep 10
+- job: job4
+  steps:
+  - script: |
+      echo Hello world4
+      sleep 10
+- job: job5
+  steps:
+  - script: |
+      echo Hello world5
+      sleep 10            
